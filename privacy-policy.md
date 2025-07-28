@@ -1,3 +1,9 @@
+---
+layout: default
+title: Gizlilik Politikası - Yemek Platformu
+description: Kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu öğrenin
+---
+
 # Gizlilik Politikası
 
 **Son Güncelleme:** 15 Aralık 2024

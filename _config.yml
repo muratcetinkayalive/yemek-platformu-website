@@ -1,0 +1,53 @@
+# Site settings
+title: Yemek Platformu
+description: Yemek Platformu gizlilik politikası ve kullanım şartları
+author: Yemek Platformu
+email: privacy@yemekplatformu.com
+url: "https://yemekplatformu.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme settings
+theme: jekyll-theme-cayman
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-tactile
+# theme: jekyll-theme-time-machine
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 

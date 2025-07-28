@@ -1,3 +1,9 @@
+---
+layout: default
+title: Kullanım Şartları - Yemek Platformu
+description: Uygulamamızın kullanım koşullarını ve kullanıcı sorumluluklarını inceleyin
+---
+
 # Kullanım Şartları
 
 **Son Güncelleme:** 15 Aralık 2024
